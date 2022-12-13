@@ -1,0 +1,234 @@
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+body {
+  background-image: url(./shara\ desert\ .jpg);
+}
+.navv {
+  position: relative;
+  left: -37%;
+}
+.nav1 {
+  display: inline-block;
+  padding: 40px 70px;
+  color: white;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.nav2 {
+  padding: 29px;
+}
+.menu {
+  background-color: aliceblue;
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  border-radius: 10px;
+}
+.sahara {
+  color: white;
+  font-size: 70px;
+  font-weight: bolder;
+}
+.lorem {
+  color: white;
+  font-size: 20px;
+}
+.lorem2 {
+  color: white;
+  font-size: 20px;
+}
+.button {
+  border-radius: 25px;
+  border: white;
+  height: 50px;
+  width: 200px;
+  font-weight: 800;
+}
+.main {
+  display: inline;
+  position: absolute;
+  left: 130px;
+}
+.imagebox {
+  display: grid;
+  justify-content: end;
+  grid-template-columns: auto auto;
+  gap: 30px 50px;
+}
+
+.img1:hover {
+  cursor: pointer;
+  transform: translateY(-9px);
+  top: 10px;
+}
+.img2:hover {
+  cursor: pointer;
+  transform: translateY(-9px);
+  top: 10px;
+}
+.img3:hover {
+  cursor: pointer;
+  transform: translateY(-9px);
+  top: 10px;
+}
+.img4:hover {
+  cursor: pointer;
+  transform: translateY(-9px);
+  top: 10px;
+}
+
+.img1 {
+  background-image: url(./pic-1.png);
+  border-radius: 25px;
+  height: 350px;
+  width: 350px;
+  background-size: contain;
+  background-repeat: round;
+  color: black;
+  text-align: center;
+}
+.img2 {
+  background-image: url(./pic-2.png);
+  border-radius: 25px;
+  height: 350px;
+  width: 350px;
+  background-size: contain;
+  background-repeat: round;
+  color: black;
+  text-align: center;
+}
+.img3 {
+  background-image: url(./pic-3.png);
+  border-radius: 25px;
+  height: 350px;
+  width: 350px;
+  background-size: contain;
+  background-repeat: round;
+  color: black;
+  text-align: center;
+}
+.img4 {
+  background-image: url(./pic-4.png);
+  border-radius: 25px;
+  height: 350px;
+  width: 350px;
+  background-size: contain;
+  background-repeat: round;
+  color: black;
+  text-align: center;
+}
+/* style css complete till here */
+/* media for tablet */
+@media (width <=856px) {
+  .navv {
+    display: flex;
+    position: relative;
+    left: -13%;
+  }
+  .nav1 {
+    padding: 46px 35px;
+  }
+  .nav2 {
+    margin-right: 35px;
+  }
+  .main {
+    position: relative;
+    left: 40px;
+    top: -200px;
+  }
+  .imagebox {
+    display: flex;
+    flex-direction: column;
+  }
+  .img1 {
+    background-image: url(./pic-1.png);
+    margin-left: 105px;
+    border-radius: 25px;
+    height: 355px;
+    width: 566px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    text-align: center;
+  }
+  .img2 {
+    margin-left: 105px;
+    border-radius: 25px;
+    height: 355px;
+    width: 566px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    text-align: center;
+  }
+  .img3 {
+    margin-left: 105px;
+    border-radius: 25px;
+    height: 355px;
+    width: 566px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    text-align: center;
+  }
+  .img4 {
+    margin-left: 105px;
+    border-radius: 25px;
+    height: 355px;
+    width: 566px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    text-align: center;
+  }
+}
+/* media for phone */
+@media (360px <= width <= 640px) {
+  .navv {
+    position: relative;
+    left: 3%;
+  }
+
+  .nav1 {
+    padding: 8px 51px;
+  }
+  .nav2 {
+    margin-right: -35px;
+  }
+  .lorem {
+    color: white;
+    font-size: 17px;
+  }
+  .lorem2 {
+    color: white;
+    font-size: 17px;
+  }
+
+  .img1 {
+    margin-left: 10px;
+    height: 290px;
+    width: 316px;
+  }
+  .img2 {
+    margin-left: 10px;
+    height: 290px;
+    width: 316px;
+  }
+  .img3 {
+    margin-left: 10px;
+    height: 290px;
+    width: 316px;
+  }
+  .img4 {
+    margin-left: 10px;
+    height: 290px;
+    width: 316px;
+  }
+}
